@@ -3,32 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Поддержка бота</title>
+    <title>Поддержка</title>
     <style>
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            text-align: center; 
-            padding: 50px 20px; 
-            background-color: #17212b; 
-            color: white; 
+        body {
+            background-color: #1c232d; /* Темный фон как на скрине */
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
         }
-        .btn { 
-            display: inline-block; 
-            padding: 15px 30px; 
-            font-size: 18px; 
-            color: white; 
-            background-color: #0088cc; 
-            text-decoration: none; 
-            border-radius: 10px; 
-            margin-top: 20px; 
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .sos-icon {
+            background-color: #ff4b4b;
+            color: white;
             font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
         }
-        .btn:hover { background-color: #006699; }
+        h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            max-width: 400px;
+            margin-bottom: 30px;
+            color: #e0e0e0;
+        }
+        .btn {
+            background-color: #2196F3; /* Синяя кнопка */
+            color: white;
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
-    <h1>🆘 Поддержка</h1>
+    <div class="header">
+        <div class="sos-icon">SOS</div>
+        <h1>Поддержка</h1>
+    </div>
     <p>Если у вас что-то не работает или появились вопросы, пишите мне в Telegram:</p>
-    <a href="https://t.me/Kalilovskiy" class="btn">Написать @Kalilovskiy</a>
+    
+    <!-- ВНИМАНИЕ: ВПИШИ СВОЙ НОВЫЙ ЮЗЕРНЕЙМ В ДВУХ МЕСТАХ НИЖЕ -->
+    <a href="https://t.me/ТВОЙ_НОВЫЙ_ЮЗЕРНЕЙМ" class="btn" target="_blank">Написать @ТВОЙ_НОВЫЙ_ЮЗЕРНЕЙМ</a>
+    
 </body>
 </html>
